@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL2PaIW-LB4" 
-#define BLYNK_TEMPLATE_NAME "Water Level"
-#define BLYNK_AUTH_TOKEN "Eb6he8UgOOHqlF1_W03KpRY6juHHWirw" 
+#define BLYNK_TEMPLATE_ID "YOUR TEMPLATE ID GOES HERE" 
+#define BLYNK_TEMPLATE_NAME "YOUR TEMPLATE NAME GOES HERE"
+#define BLYNK_AUTH_TOKEN "YOUR AUTHENTICATION TOKEN GOES HERE" 
 #define BLYNK_PRINT Serial
 #include <WiFi.h>
 #include <WiFiClient.h>
@@ -9,8 +9,8 @@
 #include <NewPing.h>
 
 char authToken[] = BLYNK_AUTH_TOKEN; 
-char wifiSSID[] = "JesusiPhone"; 
-char wifiPass[] = "Pelusa2252";
+char wifiSSID[] = "YOUR WIFI NAME GOES HERE"; 
+char wifiPass[] = "YOU WIFI PASSWORD GOES HERE";
 BlynkTimer taskScheduler; 
 
 const int TRIG_PIN = 19; 
