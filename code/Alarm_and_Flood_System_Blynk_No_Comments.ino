@@ -147,7 +147,6 @@ void setup() {
   validPingIndex = 0;
   lastStableDistance = 0;
 
-  //tasks
   taskScheduler.setInterval(250L, sampleUltrasonicMedian);
   taskScheduler.setInterval(250L, convertWaterLevel);
   taskScheduler.setInterval(250L, decideDrainState);
