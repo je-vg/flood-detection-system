@@ -63,5 +63,5 @@ Setup Instructions
 7. Open the Blynk dashboard, create a template, add the datastreams to view     the readings and the pump status
 
 Images
-![System Schematic](images/Schematic_Flood_Detection_system.png)
-![Example Blynk Dashboard](Blynk_Web_App.png)    
+![System Schematic](images/Schematic_Flood_Detection_System.png)
+![Example Blynk Dashboard](images/Blynk_Web_App.png)    
