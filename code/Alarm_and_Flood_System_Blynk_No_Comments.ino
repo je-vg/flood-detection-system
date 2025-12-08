@@ -10,7 +10,7 @@
 
 char authToken[] = BLYNK_AUTH_TOKEN; 
 char wifiSSID[] = "YOUR WIFI NAME GOES HERE"; 
-char wifiPass[] = "YOU WIFI PASSWORD GOES HERE";
+char wifiPass[] = "YOUR WIFI PASSWORD GOES HERE";
 BlynkTimer taskScheduler; 
 
 const int TRIG_PIN = 19; 
